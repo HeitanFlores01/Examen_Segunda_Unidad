@@ -1,0 +1,475 @@
+# Creado por https://www.toptal.com/developers/gitignore/api/aspnetcore,dotnetcore,visualstudiocode,windows,macos,linux,images,video,audio
+# Editar en https://www.toptal.com/developers/gitignore?templates=aspnetcore,dotnetcore,visualstudiocode,windows,macos,linux,images,video,audio
+
+### ASP.NET Core ###
+## Ignorar archivos temporales de Visual Studio, resultados de compilación y
+## Archivos generados por complementos populares de Visual Studio.
+
+# Archivos específicos del usuario
+*.suo
+*.usuario
+*.userosscache
+*.sln.docstates
+
+# Archivos específicos del usuario (MonoDevelop/Xamarin Studio)
+*.preferenciasdeusuario
+
+# Resultados de la compilación
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]liberación/
+[Rr]liberaciones/
+x64/
+x86/
+edificio/
+[Bb]en/
+[Oo]bj/
+[Ll]og/
+
+Directorio de caché/opciones de Visual Studio 2015
+.vs/
+# Descomente si tiene tareas que crean los archivos estáticos del proyecto en wwwroot
+#wwwroot/
+
+# Resultados de la prueba MSTest
+[Tt]est[Rr]resultado*/
+[B]uild[L]og.*
+
+# UNIDAD
+*.VisualState.xml
+TestResult.xml
+
+# Resultados de compilación de un proyecto ATL
+[Dd]ebugPS/
+[Rr]liberaciónPS/
+dlldata.c
+
+# DNX
+proyecto.bloqueo.json
+proyecto.fragmento.bloqueo.json
+artefactos/
+
+*_i.c
+*_ordenador personal
+*_i.h
+*.seda
+*.meta
+*.obj
+*.pch
+*.pdb
+*.pgc
+*.pgd
+*.rsp
+*.sbr
+*.tlb
+*.tli
+*.tlh
+*.tmp
+*.tmp_proj
+*.registro
+*.vspscc
+*.vssscc
+.construcciones
+*.pidb
+*.svclog
+*.scc
+
+# Archivos de prueba de Chutzpah
+_Chutzpah*
+
+# Archivos de caché de Visual C++
+ipch/
+*.aps
+*.ncb
+*.opendb
+*.opensdf
+*.sdf
+*.archivo de caché
+*.VC.db
+*.VC.VC.opendb
+
+# Perfilador de Visual Studio
+*.psess
+*.vsp
+*.vspx
+*.savia
+
+# Espacio de trabajo local de TFS 2012
+$tf/
+
+# Kit de herramientas de automatización de guías
+*.gpState
+
+# ReSharper es un complemento de codificación .NET
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+
+# JustCode es un complemento de codificación .NET
+.JustCode
+
+# TeamCity es un complemento de compilación
+_TeamCity*
+
+# DotCover es una herramienta de cobertura de código
+*.dotCover
+
+# Resultados de cobertura de código de Visual Studio
+*.cobertura
+*.coveragexml
+
+#NCrunch
+_NCrunch_*
+.*crunch*.local.xml
+nCrunchTemp_*
+
+#MightyMoose
+*.mm.*
+AutoTest.Net/
+
+# Entorno de trabajo web (sass)
+.sass-caché/
+
+# Carpeta de salida de Installshield
+[Ee]expresar/
+
+# DocProject es un complemento generador de documentación
+DocProject/buildhelp/
+DocProject/Help/*.HxT
+DocProject/Help/*.HxC
+DocProject/Help/*.hhc
+DocProject/Help/*.hhk
+DocProject/Help/*.hhp
+DocProject/Ayuda/Html2
+DocProject/Ayuda/html
+
+Directorio Click-Once
+publicar/
+
+# Publicar salida web
+*.[Pp]publicar.xml
+*.azurePubxml
+# TODO: Comenta la siguiente línea si quieres guardar la configuración de despliegue web.
+# pero las cadenas de conexión a la base de datos (con posibles contraseñas) no estarán cifradas.
+*.pubxml
+*.publicarproyecto
+
+# Configuración de publicación de la aplicación web de Microsoft Azure. Comente la siguiente línea si desea
+# Compruebe la configuración de publicación de su aplicación web de Azure, pero la información confidencial está contenida.
+# en estos scripts no estarán cifrados
+Scripts de publicación/
+
+# Paquetes NuGet
+*.nupkg
+# La carpeta de paquetes puede ignorarse debido a la restauración de paquetes.
+**/paquetes/*
+# excepto build/, que se utiliza como destino de MSBuild.
+!**/packages/build/
+# Descomente si es necesario, aunque generalmente se regenerará cuando sea necesario.
+#!**/packages/repositories.config
+# Los archivos project.json de NuGet v3 producen más archivos ignorables
+*.nuget.props
+*.nuget.targets
+
+# Salida de compilación de Microsoft Azure
+csx/
+*.build.csdef
+
+# Emulador de Microsoft Azure
+ecf/
+rcf/
+
+# Directorios y archivos de paquetes de aplicaciones de la Tienda Windows
+Paquetes de aplicaciones/
+BundleArtifacts/
+Paquete.StoreAssociation.xml
+_pkginfo.txt
+
+# Archivos de caché de Visual Studio
+# Los archivos que terminan en .cache pueden ser ignorados
+*.[Cc]ache
+# pero mantén un registro de los directorios que terminan en .cache
+!*.[Cc]ache/
+
+# Otros
+Bandeja del cliente/
+~$*
+*~
+*.dbmdl
+*.dbproj.schemaview
+*.jfm
+*.pfx
+*.publishsettings
+node_modules/
+orleans.codegen.cs
+
+# Dado que existen múltiples flujos de trabajo, descomente la siguiente línea para ignorar bower_components.
+# (https://github.com/github/gitignore/pull/1529#issuecomment-104372622)
+#componentes_bower/
+
+# Proyectos RIA/Silverlight
+Código_generado/
+
+# Copia de seguridad y archivos de informe de la conversión de un archivo de proyecto antiguo
+# a una versión más reciente de Visual Studio. No se necesitan archivos de copia de seguridad.
+# porque tenemos git ;-)
+_UpgradeReport_Files/
+Respaldo*/
+Registro de actualización*.XML
+Registro de actualización*.htm
+
+# Archivos de SQL Server
+*.mdf
+*.ldf
+
+# Proyectos de Inteligencia de Negocios
+*.rdl.data
+*.bim.layout
+*.bim_*.settings
+
+# Microsoft Fakes
+Ensamblajes falsos/
+
+# Archivo de configuración del plugin GhostDoc
+*.GhostDoc.xml
+
+# Herramientas de Node.js para Visual Studio
+.ntvs_analysis.dat
+
+# Registro de compilación de Visual Studio 6
+*.plg
+
+# Archivo de opciones del espacio de trabajo de Visual Studio 6
+*.optar
+
+# Salida de compilación de Visual Studio LightSwitch
+**/*.HTMLClient/GeneratedArtifacts
+**/*.DesktopClient/GeneratedArtifacts
+**/*.DesktopClient/ModelManifest.xml
+**/*.Server/GeneratedArtifacts
+**/*.Server/ModelManifest.xml
+Extensiones privadas
+
+# Gestor de dependencias de paquetes
+.paket/paket.exe
+archivos-paquete/
+
+# FALSO - F# Hacer
+.falso/
+
+# JetBrains Rider
+.idea/
+*.sln.iml
+
+# CodeRush
+.cr/
+
+# Herramientas de Python para Visual Studio (PTVS)
+__pycache__/
+*.pyc
+
+# Pastel - Descomenta si lo estás usando
+# herramientas/
+
+### Audio ###
+*.aif
+*.si
+*.m3u
+*.m4a
+*.medio
+*.mp3
+*.mpa
+*.real academia de bellas artes
+*.wav
+*.wma
+*.ogg
+*.flac
+
+### DotnetCore ###
+# Carpetas de compilación de .NET Core
+papelera/
+objeto/
+
+# Ubicaciones comunes de los módulos de Node.js
+/node_modules
+/wwwroot/node_modules
+
+### Imágenes ###
+# JPEG
+*.jpg
+*.jpeg
+*.jpe
+*.jif
+*.jfif
+*.jfi
+
+# JPEG 2000
+*.jp2
+*.j2k
+*.jpf
+*.jpx
+*.jpm
+*.mj2
+
+# JPEG XR
+*.jxr
+*.hdp
+*.wdp
+
+# Formato de intercambio de gráficos
+*.gif
+
+# CRUDO
+*.crudo
+
+# Web P
+*.webp
+
+# Gráficos de red portátiles
+*.png
+
+# Gráficos de red portátiles animados
+*.apng
+
+# Gráficos de red de imágenes múltiples
+*.mng
+
+# Formato de archivo de imagen etiquetado
+*.pelea
+*.tif
+
+# Gráficos vectoriales escalables
+*.svg
+*.svgz
+
+# Formato de documento portátil
+*.pdf
+
+# Mapa de bits X
+*.xbm
+
+# BMP
+*.bmp
+*.dib
+
+# ICO
+*.ico
+
+# Imágenes 3D
+*.3dm
+*.máx
+
+### Linux ###
+
+# Archivos temporales que se pueden crear si un proceso aún tiene abierto un identificador de un archivo eliminado.
+.fuse_hidden*
+
+# Preferencias de directorio de KDE
+.directorio
+
+# Carpeta de papelera de Linux que puede aparecer en cualquier partición o disco
+.Basura-*
+
+# Los archivos .nfs se crean cuando se elimina un archivo abierto pero aún se está accediendo a él.
+.nfs*
+
+### macOS ###
+# General
+.DS_Store
+.ManzanaDoble
+.LSOverride
+
+# El icono debe terminar con dos \r
+Icono
+
+
+# Miniaturas
+._*
+
+# Archivos que podrían aparecer en la raíz de un volumen
+.RevisionesDocumento-V100
+.fseventsd
+Foco V100
+.ElementosTemporales
+Basura
+.VolumeIcon.icns
+.com.apple.timemachine.nopresentar
+
+# Directorios potencialmente creados en el recurso compartido remoto de AFP
+.AppleDB
+.AppleDesktop
+Carpeta de papelera de red
+Artículos temporales
+.apdisk
+
+### Parche para macOS ###
+# Archivos generados por iCloud
+*.icloud
+
+### Video ###
+*.3g2
+*.3gp
+*.asf
+*.asx
+*.avi
+*.flv
+*.mkv
+*.mov
+*.mp4
+*.mpg
+*.ogv
+*.rm
+*.swf
+*.vob
+*.wmv
+*.webm
+
+### Código de Visual Studio ###
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/*.code-snippets
+
+# Historial local para Visual Studio Code
+.historia/
+
+# Extensiones de Visual Studio Code creadas
+*.vsix
+
+### Parche de VisualStudioCode ###
+# Ignorar todo el historial local de archivos
+.historia
+iónido
+
+### Windows ###
+# Archivos de caché de miniaturas de Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+
+# Archivo de volcado
+*.stackdump
+
+# Archivo de configuración de la carpeta
+[Dd]esktop.ini
+
+# Papelera de reciclaje utilizada en recursos compartidos de archivos
+$RECICLAJE.CONTENEDOR/
+
+# Archivos del instalador de Windows
+*.taxi
+*.msi
+*.msix
+*.msm
+*.msp
+
+# Accesos directos de Windows
+*.lnk
+
+# Fin de https://www.toptal.com/developers/gitignore/api/aspnetcore,dotnetcore,visualstudiocode,windows,macos,linux,images,video,audio
+
+Sales.API\appsettings.Development.json
+Sales.API\appsettings.json
